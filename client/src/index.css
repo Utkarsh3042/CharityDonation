@@ -1,0 +1,35 @@
+body {
+  background-color: #13131a;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+}
+
+.sidebar {
+  display: none;
+}
+
+.sidebar-visible {
+  display: flex;
+  margin-right: 40px;
+}
+
+.content {
+  flex: 1;
+  max-width: 1280px;
+  margin: auto;
+  padding-right: 20px;
+}
+
+@media (min-width: 640px) {
+  .sidebar {
+    display: flex;
+  }
+}

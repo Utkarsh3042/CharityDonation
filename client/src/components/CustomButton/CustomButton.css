@@ -1,0 +1,19 @@
+/* CustomButton.css */
+.custom-button {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    min-height: 52px;
+    padding: 0 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #1c1c24; /* Add a default background color */
+  }
+  
+  .custom-button:hover {
+    background-color: #2c2f32; /* Add a hover effect */
+  }
+  

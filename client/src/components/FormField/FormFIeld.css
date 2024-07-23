@@ -1,0 +1,37 @@
+/* Form field container */
+.form-field {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+  }
+  
+  /* Form field label */
+  .form-field-label {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #808191;
+    margin-bottom: 10px;
+  }
+  
+  /* Form field input and textarea */
+  .form-field-input,
+  .form-field-textarea {
+    padding: 15px;
+    outline: none;
+    border: 1px solid #3a3a43;
+    background-color: transparent;
+    font-family: 'Epilogue', sans-serif;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+    min-width: 300px;
+  }
+  
+  /* Placeholder text */
+  .form-field-input::placeholder,
+  .form-field-textarea::placeholder {
+    color: #4b5264;
+  }

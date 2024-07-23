@@ -1,0 +1,83 @@
+/* Create campaign container */
+.create-charity-container {
+    background-color: #1c1c24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 40px;
+    margin: 40px;
+  }
+  
+  /* Create campaign header */
+  .create-charity-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    min-width: 380px;
+    background-color: #3a3a43;
+    border-radius: 10px;
+  }
+  
+  .create-charity-header h1 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 38px;
+    color: white;
+  }
+  
+  /* Create campaign form */
+  .create-charity-form {
+    width: 100%;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  /* Form field group */
+  .form-field-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+  
+  /* Campaign info */
+  .charity-info {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 16px;
+    background-color: #8c6dfd;
+    height: 120px;
+    border-radius: 10px;
+  }
+  
+  .charity-info img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+  }
+  
+  .charity-info h4 {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    margin-left: 20px;
+  }
+  
+  /* Form submit button */
+  .form-submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+  
+  .submit-button {
+    background-color: #1dc071;
+  }

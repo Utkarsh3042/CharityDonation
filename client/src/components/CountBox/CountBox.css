@@ -1,0 +1,33 @@
+.count-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+  }
+  
+  .count-box-value {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    padding: 16px;
+    background-color: #1c1c24;
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  .count-box-title {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #808191;
+    background-color: #28282e;
+    padding: 8px 16px;
+    width: 100%;
+    border-radius: 0 0 10px 10px;
+    text-align: center;
+  }

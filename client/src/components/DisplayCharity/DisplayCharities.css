@@ -1,0 +1,41 @@
+
+.container {
+    padding: 20px;
+  }
+  
+  .title {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    text-align: left;
+  }
+  
+  .charityCount {
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 30px;
+    color: #818183;
+  }
+  
+  .charityList {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 26px;
+  }
+  
+  .loader {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  .charity-container{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 15px;
+  }
+  .charity-main{
+    margin-left: 50px;
+  }
